@@ -45,22 +45,22 @@ print("\nHomework 2.5")
 d = 1.61
 km = 12.25
 ml = 7.38
-print(ml, "miles is ", round(ml*d,2))
-print(km, "kilometers is ", round(km/d,2))
+print(ml, "miles is ", round(ml * d, 2))
+print(km, "kilometers is ", round(km / d, 2))
 
 #Homework 2.6
 print("\nHomework 2.6")
 x = 0
-y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
+y = (3 * x ** 3 - 2  * x ** 2 + 3 * x - 1)
 print(" x = 0\n y = ", float(y))
 x = 1
-y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
+y = (3 * x ** 3 - 2  * x ** 2 + 3 * x - 1)
 print(" x = 1 \n y = ", float(y))
 x = -1
 y = (3 * x ** 3 - 2  * x ** 2 + 3 * x - 1)
 print(" x = -1 \n y = ", float(y))
 x = int(input("Enter x \ n"))
-y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
+y = (3 * x ** 3 - 2  * x ** 2 + 3 * x - 1)
 print(" x = ", x, "\n y = ", float(y))
 
 #Homework 2.7
@@ -112,9 +112,9 @@ print("Total", totalRet)
 
 #Homework 2.12
 print("\nHomework 2.12")
-denominator = 4 + 2 *(-2)
+denominator = 4 + 2 * (-2)
 if denominator != 0:
-    print("Value = ",42 / denominator)
+    print("Value = ", 42 / denominator)
 
 #Homework 2.13
 print("\nHomework 2.13")
