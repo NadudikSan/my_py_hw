@@ -13,13 +13,28 @@ print("\nHomework 2.2")
 print("     *\n", "   * *\n", "  *   *\n", " *     *\n", "***   ***\n", "  *   *\n", "  *   *\n",  "  *****")
 print("     *", "   * *", "  *   *", " *     *", "***   ***", "  *   *", "  *   *",  "  *****", sep="\n ")
 
+#Homework 2.2*
+print("    *", "     *", sep="       ")
+print("   * *", "   * *", sep="       ")
+print("  *   *", "  *   *", sep="      ")
+print(" *     *", " *     *", sep="     ")
+print("***   ***", "***   ***", sep="    ")
+print("  *   *", "  *   *", sep="      ")
+print("  *   *", "  *   *", sep="      ")
+print("  *****", "  *****", sep="      ")
+
+#Homework 2.2**
+print("    *\n   * *\n  *   *\n *     *")
+print(3 * "*", 3 * "*", sep="   ")
+print("  *   *\n  *   *\n  *****")
+
 #Homework 2.3
 print("\nHomework 2.3")
 print("\"I'm\"", "\"\"learning\"\"", "\"\"Python\"\"", sep="\n")
 
 #Homework 2.4
 print("\nHomework 2.4")
-john, mary, adam = 3,45,12
+john, mary, adam = 3, 45, 12
 print(john, mary, adam, sep=", ")
 print("john = ", john, ", mary = ", mary, ", adam = ", adam,)
 total_apples = john + mary + adam
@@ -37,16 +52,16 @@ print(km, "kilometers is ", round(km/d,2))
 print("\nHomework 2.6")
 x = 0
 y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
-print(" x = 0\n y = ",float(y))
+print(" x = 0\n y = ", float(y))
 x = 1
 y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
-print(" x = 1\n y = ",float(y))
+print(" x = 1 \n y = ", float(y))
 x = -1
+y = (3 * x ** 3 - 2  * x ** 2 + 3 * x - 1)
+print(" x = -1 \n y = ", float(y))
+x = int(input("Enter x \ n"))
 y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
-print(" x = -1\n y = ",float(y))
-x = int(input("Enter x\n"))
-y = (3 * x ** 3 - 2  *x ** 2 + 3 * x - 1)
-print(" x = ", x,"\n y = ",float(y))
+print(" x = ", x, "\n y = ", float(y))
 
 #Homework 2.7
 print("\nHomework 2.7")
@@ -92,18 +107,18 @@ print("Hello World")
 print("\nHomework 2.11")
 oneRet = 11111
 twoRet = 1111111
-totalRet = oneRet+twoRet
-print("Total",totalRet)
+totalRet = oneRet + twoRet
+print("Total", totalRet)
 
 #Homework 2.12
 print("\nHomework 2.12")
-denominator = 4+2*(-2)
+denominator = 4 + 2 *(-2)
 if denominator != 0:
-    print("Value = ",42/denominator)
+    print("Value = ",42 / denominator)
 
 #Homework 2.13
 print("\nHomework 2.13")
-print("= ", 2014**14)
+print("= ", 2014 ** 14)
 
 #Homework 2.14
 print("\nHomework 2.14")
@@ -115,4 +130,4 @@ print("Seconds in month: ", hours * seconds)
 
 #Homework 2.15
 print("\nHomework 2.15")
-print("= ", float(2014**14))
+print("= ", float(2014 ** 14))
