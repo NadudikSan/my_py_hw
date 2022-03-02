@@ -34,7 +34,6 @@
 #HomeWork5.3
 import random
 board = [i for i in range(1,10)]
-print(board)
 pcRes = 0
 userRes = 0
 def userMove():
@@ -73,23 +72,31 @@ def checkResult():
         pcRes += 1
     elif (board[2] == board[4] == board[6] == "O") or (board[0] == board[4] == board[8] == "O"):
         userRes += 1
-def dyspleyBoard():
+def displayBoard(board):
     print("+-------" * 3,"+", sep="")
+    c=0
     for row in range(3):
         print("|       "*3, "|", sep="")
         for col in range(3):
-            print("|   "+ str(board))
+            print("|   "+ str(board[c]) + "   ", end="")
+            c += 1
+        print("|")
+        print("|       " * 3, "|", sep="")
+        print("+-------" * 3, "+", sep="")
+        
+displayBoard(board)
 #The first move
 board[4] = "X"
 celling = len(board)
+
 while celling > 1:
     userMove()
-    print(board)
+    displayBoard(board)
     pcMove()
-    print(board)
+    displayBoard(board)
     checkResult()
     celling -= 2
-print(board)
+displayBoard(board)
 print("Result PC = ",pcRes,"User = ",userRes, sep="|")
 if userRes > pcRes:
     print("User Win")
