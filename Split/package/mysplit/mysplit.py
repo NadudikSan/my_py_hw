@@ -1,4 +1,3 @@
-
 def mysplit(str):
     myList = []
     newStr = ""
@@ -10,4 +9,3 @@ def mysplit(str):
             newStr = ""
     myList.append(newStr)    
     return myList
-print(mysplit("My split to be"))
